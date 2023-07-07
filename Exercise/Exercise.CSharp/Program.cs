@@ -1,2 +1,4 @@
-﻿ExecuteFailSoftArray fs = new ExecuteFailSoftArray();
-fs.Execute();
+﻿using Exercise.CSharp.Recursion;
+
+ExecuteRecursion fact = new ExecuteRecursion();
+fact.Execute(3);
