@@ -1,4 +1,7 @@
-﻿using Exercise.CSharp.Recursion;
+﻿
+using Exercise.CSharp.StructAndClass;
 
-ExecuteRecursion fact = new ExecuteRecursion();
-fact.Execute(3);
+ExecuteMyStractAndClass s = new ExecuteMyStractAndClass();
+
+s.ExecuteStruct();
+s.ExecuteClass();
