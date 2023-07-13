@@ -1,8 +1,4 @@
-﻿
-using System.Linq.Expressions;
-using Exercise.CSharp.StructAndClass;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
+﻿using Exercise.CSharp.StructAndClass;
 
 ExecuteMyStractAndClass s = new ExecuteMyStractAndClass();
 
