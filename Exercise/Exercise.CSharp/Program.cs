@@ -1,6 +1,5 @@
-﻿using Exercise.CSharp.StructAndClass;
+﻿using Exercise.CSharp.Exceptions;
 
-ExecuteMyStractAndClass s = new ExecuteMyStractAndClass();
+ExecuteException executeException = new ExecuteException();
 
-s.ExecuteStruct();
-s.ExecuteClass();
+executeException.Execute();
