@@ -22,7 +22,7 @@ public class Rethrow
             catch (IndexOutOfRangeException)
             {
                 Console.WriteLine("Matching item not found.");
-                throw; // rethrow the exception
+                throw;
             }
         }
     }
