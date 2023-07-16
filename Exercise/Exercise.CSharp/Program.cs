@@ -1,5 +1,6 @@
 ﻿using Exercise.CSharp.Exceptions;
 
-ExecuteException executeException = new ExecuteException();
+ExceptionTest executeException = new ExceptionTest();
 
-executeException.Execute();
+
+executeException.FirstMethod(-2, 4);
