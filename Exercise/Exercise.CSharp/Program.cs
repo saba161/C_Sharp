@@ -1,6 +1,6 @@
-﻿using Exercise.CSharp.Exceptions;
+﻿using Exercise.CSharp.FileStream;
 
-ExceptionTest executeException = new ExceptionTest();
+ExecuteFileStream execute = new ExecuteFileStream();
 
-
-executeException.FirstMethod(-2, 4);
+var str = new string[] { };
+execute.Execute(str);
