@@ -10,5 +10,15 @@ public class ListsOfElementsOfAnonymousType
 
         var arr = new[] { x };
         var listOfElementsAnonymous = arr.ToList();
+
+        listOfElementsAnonymous.Clear();
+
+        var res = CreateList(arr);
+    }
+
+    public List<T> CreateList<T>(params T[] elements)
+    {
+        var result = elements.ToList();
+        return result;
     }
 }
