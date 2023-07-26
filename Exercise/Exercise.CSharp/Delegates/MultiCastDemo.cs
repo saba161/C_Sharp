@@ -4,13 +4,13 @@ delegate void StrMod(ref string str);
 
 public class MultiCastDemo
 {
-    static void ReplaceSpaces(ref string s)
+    public static void ReplaceSpaces(ref string s)
     {
         Console.WriteLine("Замена пробелов дефисами.");
         s = s.Replace(' ', '-');
     }
 
-    static void RemoveSpaces(ref string s)
+    public static void RemoveSpaces(ref string s)
     {
         string temp = "";
         int i;
@@ -21,7 +21,7 @@ public class MultiCastDemo
         s = temp;
     }
 
-    static void Reverse(ref string s)
+    public static void Reverse(ref string s)
     {
         string temp = "";
         int i, j;

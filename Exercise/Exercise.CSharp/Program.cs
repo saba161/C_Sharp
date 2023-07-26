@@ -1,6 +1,3 @@
-﻿using Exercise.CSharp.FileStream;
+﻿using Exercise.CSharp.Delegates;
 
-ExecuteFileStream execute = new ExecuteFileStream();
-
-var str = new string[] { };
-execute.Execute(str);
+ExecuteMultiCastDemo.Execute();
