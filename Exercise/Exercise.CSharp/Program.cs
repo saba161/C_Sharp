@@ -1,3 +1,3 @@
 ﻿using Exercise.CSharp.Delegates;
 
-ExecuteMultiCastDemo.Execute();
+ExecuteStudent.Execute();
