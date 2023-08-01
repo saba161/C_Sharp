@@ -1,3 +1,4 @@
 ﻿using Exercise.CSharp.Delegates;
+using Exercise.CSharp.Events;
 
-ExecuteStudent.Execute();
+ExecutePerson.Execute();
