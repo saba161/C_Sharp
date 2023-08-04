@@ -1,3 +1,4 @@
-﻿using Exercise.CSharp.Events;
+﻿using Exercise.CSharp.Delegates.DelegateWithAnonimous;
+using Exercise.CSharp.Events;
 
-ExecutePerson.Execute();
+ExecuteAnonMethDemo2.Execute();
