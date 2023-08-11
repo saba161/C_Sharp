@@ -7,5 +7,7 @@ public class Execute
         //
         Counter.CountDown countOne = new Counter.CountDown();
         Counter2.CountDown countTwo = new Counter2.CountDown();
+        
+        A.Sum();
     }
 }
