@@ -1,3 +1,4 @@
 ﻿using Exercise.CSharp.Delegates.DelegateWithAnonimous;
+using Exercise.CSharp.Recursion;
 
-ExecuteAnonMethDemo2.Execute();
+UseIs.ExecuteAs();
