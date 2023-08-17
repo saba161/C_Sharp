@@ -10,8 +10,6 @@ public static class ExecuteGenerics
 
         iOb.ShowType();
 
-        // Получить значение переменной iOb.
-        // На этот раз потребуется приведение типов.
         int v = (int)iOb.GetOb();
         Console.WriteLine("Значение: " + v);
         Console.WriteLine();
