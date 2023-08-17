@@ -31,4 +31,18 @@ public class UseIs
         else
             Console.WriteLine("Yes");
     }
+
+    public static void ExecuteTypeOf()
+    {
+        Type t = typeof(StreamReader);
+        Console.WriteLine(t.FullName);
+        
+        if (t.IsClass) 
+            Console.WriteLine("Is Class");
+        
+        if (t.IsAbstract)
+            Console.WriteLine("Is Abstract Class");
+        else 
+            Console.WriteLine("Is Conrete Class");
+    }
 }
