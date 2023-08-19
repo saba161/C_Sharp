@@ -2,7 +2,7 @@ namespace Exercise.CSharp.Generics;
 
 public class NonGen
 {
-    object ob; // переменная ob теперь относится к типу object
+    object ob;
 
     // Передать конструктору ссылку на объект типа object.
     public NonGen(object о)
