@@ -13,9 +13,7 @@ public static class ExecuteGenerics
         int v = (int)iOb.GetOb();
         Console.WriteLine("Значение: " + v);
         Console.WriteLine();
-
-        // Создать еще один объект класса NonGen и
-        // сохранить строку в переменной it.
+        
         NonGen strOb = new NonGen("Тест на необобщенность");
 
         // Показать тип данных, хранящихся в переменной strOb.
