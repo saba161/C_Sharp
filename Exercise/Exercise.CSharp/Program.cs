@@ -1,3 +1,15 @@
-﻿using Exercise.CSharp.Generics;
+﻿string str = "123456";
 
-ExecuteGenerics.Execute();
+float number;
+
+try
+{
+    number = float.Parse(str);
+    Console.WriteLine(number);
+
+}
+catch (FormatException)
+{
+    number = -6;
+    Console.WriteLine(number);
+}
